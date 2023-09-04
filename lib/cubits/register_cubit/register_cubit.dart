@@ -76,7 +76,7 @@ Future<void> regFunction() async {
 
 
 
-
+  //cancel loading
   void cancelLoading(){
     emit(LoadingCANCEL());
   }
